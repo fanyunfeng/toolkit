@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+MSHELL_TYPE=ssh
+MSHELL_USER=root
+MSHELL_HOST=192.168.90.20
+
+MSHELL_WORKING=./
+
+#MSHELL_DBNAME=jabberd2
+#MSHELL_DBPWD=secret
+#MSHELL_DBUID=jabberd2
+#MSHELL_DBHOST=192.168.90.31
+
+MSHELL_COMMAND=""
+
+source ${MSHELL_WORKING}/.config/proxy.sh
+source ${MSHELL_WORKING}/.config/shell.sh

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ~/.ssh/gate2.sh
+
+#MSHELL_PROXY_HOST=
+#MSHELL_PROXY_USER=
+#MSHELL_PROXY_PWD=
+
+MSHELL_PROXY_SHELL="ssh -v -t ${MSHELL_PROXY_USER}@${MSHELL_PROXY_HOST}"

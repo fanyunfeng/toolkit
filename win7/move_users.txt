@@ -1,0 +1,7 @@
+创建用户前 shift + F10
+
+cobocopy "c:\Users" "d:\Users" /E /COPYALL /XJ
+
+rm "c:\Users" /S /Q
+
+mklink /J "c:\Users" "d:\Users"
