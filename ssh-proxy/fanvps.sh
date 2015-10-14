@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ssh -f -N -D 127.0.0.1:7077 fanvps.search
+ssh -f -N -D 127.0.0.1:7077 192.168.119.201

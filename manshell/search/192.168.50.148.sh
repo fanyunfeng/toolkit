@@ -1,5 +1,5 @@
 #!/bin/bash
-#SearchCache
+#tag: web
 
 MSHELL_TYPE=ssh
 MSHELL_USER=hcsystem03
